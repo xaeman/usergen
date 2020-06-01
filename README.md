@@ -5,10 +5,10 @@
 UserGen grabs one random word from [usernames.txt](https://github.com/jeanphorn/wordlist/blob/master/usernames.txt) by [jeanphorn](https://github.com/jeanphorn) on GitHub using the `Math.random` method and generates one random number, again using the `Math.random` method.
 
 ## Credits 
-- [Robyn (me)](https://github.com/xaeman) — overall design
+- [xaeman (me)](https://github.com/xaeman) — overall design
 - [Denys Séguret](https://dystroy.org) — the [Stack Overflow answer](https://stackoverflow.com/a/13237436/13379432) that tought me how to do this
-- [Lee.jeanphorn](https://github.com/jeanphorn) — username list
-- [Nicolas Cusan](https://github.com/nicolas-cusan) — the [destyle.css](https://github.com/nicolas-cusan/destyle.css) reset stylesheet
+- [jeanphorn](https://github.com/jeanphorn) — username list
+- [nicolas-cusan](https://github.com/nicolas-cusan) — the [destyle.css](https://github.com/nicolas-cusan/destyle.css) reset stylesheet
 - [Cody Boisclair](http://zone38.net) — *Press Start 2P* (heading font)
 - [Steve Matteson](https://www.monotype.com/studio/steve-matteson) — *Open Sans* (body font)
 
