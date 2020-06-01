@@ -12,4 +12,4 @@ UserGen grabs one random word from [usernames.txt](https://github.com/jeanphorn/
 - [Steve Matteson](https://www.monotype.com/studio/steve-matteson) — *Open Sans* (body font)
 
 ## License
-UserGen is licensed under the [BSD 2-Clause "Simplified" License](license.md).
+UserGen is licensed under the [BSD 2-Clause "Simplified" License](LICENSE).
