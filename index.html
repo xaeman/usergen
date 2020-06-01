@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="X-UA-Compatible" content="ie=edge">
+        <title>UserGen ─ Simple JS Username Generator</title>
+        <link rel="stylesheet" href="css/destyle.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&display=swap">
+        <link rel="shortcut icon" href="img/favicon.png">
+    </head>
+    <body onload="generateName()">
+        <div class="header">
+            <h1 class="heading"><a href="/" class="logo">UserGen</a></h1>
+        </div>
+        <div class="generator">
+            <p class="body">UserGen is a simple JavaScript username generator. Press the button below to generate usernames.</p>
+            <div class="generator-button">
+                <a onclick="generateName()" class="button">Generate</a>
+            </div>
+            <div class="output">
+                <p class="body">Your randomly generated username:</p>
+                <h1 class="heading" id="output-text"></h1>
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="heading">How it Works</h1>
+            <p class="body">UserGen grabs one random word from <a href="https://github.com/jeanphorn/wordlist/blob/master/usernames.txt" class="link">usernames.txt</a> by <a href="https://github.com/jeanphorn" class="link">jeanphorn</a> on GitHub using the <span class="code">Math.random</span> method and generates one random number, again using the <span class="code">Math.random</span> method.<br>
+            You can find the source code <a href="https://github.com/xaeman/usergen" class="link">on GitHub</a>.</p>
+        </div>
+        <div class="footer-container">
+            <div class="footer">
+                <p class="body">Copyright © <a href="https://github.com/xaeman" class="link">xaeman</a> <script type="text/javascript">document.write(new Date().getFullYear());</script>. Licensed under the <a href="LICENSE" class="link">BSD 2-Clause "Simplified" License</a>.</p>
+            </div>
+        </div>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

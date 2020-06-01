@@ -1,0 +1,110 @@
+* {
+    outline: transparent;
+}
+
+::selection {
+    background-color: #e5e5e5;
+    color: #1a1a1a;
+}
+
+body {
+    background-image: linear-gradient(to right, #0c4fa5, #43a4f0);
+    color: #e5e5e5;
+}
+
+.header {
+    background-color: rgba(26, 26, 26, 0.5);
+    padding: 1.5em;
+    text-align: center;
+    user-select: none;
+}
+
+.heading {
+    cursor: default;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1.5em;
+}
+
+.logo:active {
+    position: relative;
+    top: 1px;
+}
+
+.generator {
+    padding: 1.5em;
+}
+
+.body {
+    cursor: default;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.generator-button {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.button {
+    background-color: #e5e5e5;
+    color: #1a1a1a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Press Start 2P', monospace;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    user-select: none;
+    width: 150px;
+}
+
+.button:hover {
+    box-shadow: 5px 5px #1a1a1a;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.output {
+    border-bottom: 2px solid #e5e5e5;
+    border-top: 2px solid #e5e5e5;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.output .heading {
+    padding-top: 1.5em;
+}
+
+.info {
+    padding: 1.5em;
+}
+
+.info .body {
+    padding-top: 1.5em;
+}
+
+.link {
+    border-bottom: 2.5px solid #e5e5e5;
+}
+
+.link:active {
+    position: relative;
+    top: 1px;
+}
+
+.code {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.footer-container {
+    padding-top: 3.1%;
+}
+
+.footer {
+    background-color: rgba(26, 26, 26, 0.5);
+    padding: 1.5em;
+    text-align: center;
+    user-select: none;
+}
